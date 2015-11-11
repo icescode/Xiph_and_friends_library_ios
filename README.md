@@ -8,7 +8,9 @@ This is pre compiled Xiph and friends static library (bitcode enabled) for iOS (
 6. libmp3lame.a
 7. libshout.a
 
-if you want to use libshout API on iOS then you must static linked also with libogg, libvorbis, libtheora, libvorbisenc.
+if you want to use libshout API on iOS then put all header file to your project, and linked with libshout, libogg, libvorbis, libtheora 
+and libvorbisenc.
+
 libmp3lame is optional.
 
 all headers file are in header folder.
