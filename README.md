@@ -5,12 +5,13 @@ This is pre compiled Xiph and friends static library (bitcode enabled) for iOS (
 3. libtheora.a
 4. libvorbisenc.a
 5. libmp3lame.a
-6. libshout.a
+6. libshout.a (MP3, OGG and AAC)
 7. libfaac.a <non free>
 8. libopus.a
 9. libflac.a
+10. libshout_with_opus.a (MP3, OGG and Opus)
 
-if you want to use libshout API on iOS then put all header (shout,vorbis,ogg,theora) files to your project, and linked with libshout, libogg, libvorbis, libtheora and libvorbisenc.
+if you want to use libshout API on iOS then put all header (shout,vorbis,ogg,theora) files to your project, and linked with libshout or libshout_with_opus.a , libogg, libvorbis, libtheora and libvorbisenc.
 
 libmp3lame, libopus, libflac are optional.
 
